@@ -27,7 +27,7 @@ before_script:
 
 script:
   - npm run build
-  - docker build -t Atuii/citest1 .
+  - docker build -t Atuii/citest1
 
 after_script:
   - docker ps
